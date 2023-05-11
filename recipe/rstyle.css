@@ -3,7 +3,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 1.125rem; 
-    text-align: center;
+    text-align: left;
     line-height: 1.6em ;
 
             }
@@ -24,14 +24,14 @@ body{
    
     h4{
     font-family: 'Vidaloka', serif;
-    text-align: center;
+    text-align: left;
     font-size: 1.5rem;}   
-head {
+head{
     text-align:center;
     background-color: #FCE2E1;}
 
-    
-      
+    p,head{text-align: center;}
+
 
   
       div,html{
