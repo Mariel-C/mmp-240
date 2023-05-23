@@ -5,97 +5,100 @@
   <link rel="stylesheet" href="indexstyle.css">
   <title>MMP 240 Class Website</title>
   <style>
-    html{ background-color: beige;}
+    html{ background-color: #f8f8f8; }
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f5f5f5;
+      background-color: #fff;
       color: #333; /* Changed text color to dark gray */
     }
     h1 {
-  text-align: center;
-  padding: 2em 0;
-  color: #fff; /* Changed title color to white */
-  background-color: #333; /* Changed background color to dark gray */
-  margin: 0;
-}
+      text-align: center;
+      padding: 2em 0;
+      color: #333; /* Changed title color to dark gray */
+      background-color: #f5f5f5; /* Changed background color to light gray */
+      margin: 0;
+    }
 
-h2 {
-  text-align: center;
-  margin-bottom: 1em;
-}
+    h2 {
+      text-align: center;
+      margin-bottom: 1em;
+    }
 
-img {
-  display: block;
-  margin: 0 auto;
-  border-radius: 50%;
-  max-width: 300px;
-  height: auto;
-}
+    img {
+      display: block;
+      margin: 0 auto;
+      border-radius: 50%;
+      max-width: 400px;
+      height: auto;
+    }
 
-h4 {
-  text-align: center;
-  margin-top: 1em;
-}
+    h4 {
+      text-align: center;
+      margin-top: 1em;
+    }
 
-h3 {
-  margin-top: 2em;
-}
+    h3 {
+      margin-top: 2em;
+      text-align: center;
+    }
 
-p {
-  text-align: center;
-  max-width: 600px;
-  margin: 0 auto;
-}
+    p {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
 
-ul {
-  list-style: none;
-  padding: 0;
-  max-width: 600px;
-  margin: 2em auto;
-}
+    ul {
+      list-style: none;
+      padding: 0;
+      max-width: 800px;
+      margin: 2em auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
 
-li {
-  margin-bottom: 1em;
-}
+    li {
+      margin-bottom: 1em;
+      width: 45%;
+    }
 
-a {
-  color: #008080; /* Changed link color to teal */
-  text-decoration: none;
-}
+    a {
+      color: #008080; /* Changed link color to teal */
+      text-decoration: none;
+    }
 
-a:hover {
-  text-decoration: underline;
-}
+    a:hover {
+      text-decoration: underline;
+    }
 
-/* Remove borders */
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+    /* Remove borders */
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
 
-.profile,
-.about,
-.assignments {
-  border: none;
-}
-/* Two-column layout */
-.column {
-  float: left;
-  width: 50%;
-}
+    .profile,
+    .about,
+    .assignments {
+      border: none;
+    }
 
+    /* Two-column layout */
+    .column {
+      float: left;
+      width: 50%;
+      align-self: center;
+    }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-       
-
-
-    </style>
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
 </head>
 
 <body>
@@ -107,7 +110,6 @@ a:hover {
             <img src="myself.1.jpg" alt="This is me">
             <h4>Email: Mariel_6@icloud.com</h4>
         </div>
-       
 
         <div class="about">
             <h3>About Me</h3>
@@ -135,5 +137,4 @@ a:hover {
         </div>
     </div>
 </body>
-
 </html>
