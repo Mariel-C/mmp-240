@@ -1,34 +1,119 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="indexstyle.css"> 
-        <title>MMP 240 Class Website</title>
-    </head>
-    <body>
-        <h1> MMP240 Class Website</h1>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="indexstyle.css">
+    <title>MMP 240 Class Website</title>
+    <style>
+        h1 {
+  text-align: center;
+  padding: 2em 0;
+  color: #fff; /* Changed title color to white */
+  background-color: #333; /* Changed background color to dark gray */
+  margin: 0;
+}
 
-        <h2>Mariel Caraballo</h2>
-            <img src="myself.1.jpg" alt="This is me" width="300">
-                <h4>Email: Mariel_6@icloud.com</h4>
+h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
 
-        <h3>A little About Me</h3>
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  max-width: 300px;
+  height: auto;
+}
 
-            <p>Hello I am a second year BMCC student, that majors in Multimedia and Programming. I am 
-                very excited for this course although coding can be a little difficult I like the idea 
-                of creating my own website from scratch. Hoope to have agreat semester with you all.
-            </p>
+h4 {
+  text-align: center;
+  margin-top: 1em;
+}
 
-        <h3>Assightnments</h3><!--  This is the list of my completed assignments, update with links when available -->
+h3 {
+  margin-top: 2em;
+}
+
+p {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 2em auto;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+a {
+  color: #008080; /* Changed link color to teal */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Remove borders */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile,
+.about,
+.assignments {
+  border: none;
+}
+
+    </style>
+</head>
+
+<body>
+    <h1>MMP240 Class Website</h1>
+
+    <div class="container">
+        <div class="profile">
+            <h2>Mariel Caraballo</h2>
+            <img src="myself.1.jpg" alt="This is me">
+            <h4>Email: Mariel_6@icloud.com</h4>
+        </div>
+
+        <div class="about">
+            <h3>About Me</h3>
+            <p>Hello, I am a second-year BMCC student majoring in Multimedia and Programming. I am excited about this course and enjoy the process of creating websites from scratch. Looking forward to a great semester with all of you.</p>
+        </div>
+
+        <div class="assignments">
+            <h3>Assignments</h3>
             <ul>
-                <li> <a href="recipe/recipe.html"> Recipe Assignment</a></li>
-                <li> <a href="exercise2/exercise2.html"> Exercise 2 </a></li>
-                <li> <a href="exercise3/exercise3.html"> Exercise 3 </a></li>
-                <li> <a href="exercise4/exercise4.html"> Exercise 4 </a></li>
-                <li> <a href="exercise5/exercise5.html"> Exercise 5 </a></li>
-                <li> <a href="exercise6/exercise6.html"> Exercise 6 </a></li>
+                <li><a href="recipe/recipe.html">Recipe Assignment</a></li>
+                <li><a href="exercise2/exercise2.html">Exercise #2</a></li>
+                <li><a href="exercise3/exercise3.html">Exercise #3</a></li>
+                <li><a href="exercise4/exercise4.html">Exercise #4</a></li>
+                <li><a href="exercise5/exercise5.html">Exercise #5</a></li>
+                <li><a href="exercise6/exercise6.html">Exercise #6</a></li>
+                <li><a href="exercise7/exercise7.html">Exercise #7</a></li>
+                <li><a href="exercise8/exercise8.html">Exercise #8</a></li>
+                <li><a href="exercise9/exercise9.html">Exercise #9</a></li>
+                <li><a href="exercise10/exercise10.html">Exercise #10</a></li>
+                <li><a href="quiz1/quiz1.html">Quiz #1</a></li>
+                <li><a href="quiz2/quiz2.html">Quiz #2</a></li>
+                <li><a href="quiz3/quiz3.html">Quiz #3</a></li>
+                <li><a href="quiz4/quiz4.html">Quiz #4</a></li>
             </ul>
-    </body>
+        </div>
+    </div>
+</body>
 
 </html>

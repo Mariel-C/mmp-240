@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      width: 200px;
+      background-color: #f1f1f1;
+    }
+
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+      border-bottom: 1px solid #ddd;
+    }
+
+    li a:hover {
+      background-color: #ddd;
+    }
+
+    li.dropdown {
+      position: relative;
+    }
+
+    li.dropdown:hover ul {
+      display: block;
+    }
+
+    ul.dropdown-menu {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 100%;
+      background-color: #f1f1f1;
+      min-width: 200px;
+    }
+
+    ul.dropdown-menu li {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>MMP 240 WEB DESIGN</h1>
+  <h2>KAISAR</h2>
+  <ul>
+    <li class="dropdown">
+      <a href="#">Home</a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Submenu 1</a></li>
+        <li><a href="#">Submenu 2</a></li>
+        <li><a href="#">Submenu 3</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a href="#">Fruits</a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Apple</a></li>
+        <li><a href="#">Banana</a></li>
+        <li><a href="#">Orange</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a href="#">Vegetables</a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Carrot</a></li>
+        <li><a href="#">Broccoli</a></li>
+        <li><a href="#">Lettuce</a></li>
+      </ul>
+    </li>
+  </ul>
+</body>
+</html>
